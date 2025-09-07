@@ -102,15 +102,15 @@ class CameraPage extends StatelessWidget {
             exifPreferences: ExifPreferences(saveGPSLocation: true),
           ),
           sensorConfig: SensorConfig.single(
-            sensor: Sensor.position(SensorPosition.back),
+            sensor: Sensor.position(SensorPosition.front),
             flashMode: FlashMode.auto,
-            aspectRatio: CameraAspectRatios.ratio_4_3,
+            aspectRatio: CameraAspectRatios.ratio_16_9,
             zoom: 0.0,
           ),
           enablePhysicalButton: true,
           // filter: AwesomeFilter.AddictiveRed,
-          previewAlignment: Alignment.center,
-          previewFit: CameraPreviewFit.contain,
+          // previewAlignment: Alignment.center,
+          // previewFit: CameraPreviewFit.contain,
           onMediaTap: (mediaCapture) {
             mediaCapture.captureRequest.when(
               single: (single) {
