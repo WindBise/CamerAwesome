@@ -168,7 +168,7 @@ SPEC CHECKSUMS:
   nanopb: fad817b59e0457d11a5dfbde799381cd727c1275
   open_filex: 432f3cd11432da3e39f47fcc0df2b1603854eff1
   path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
-  patrol: dd82ffedfee3aba87c1d0ed2daad0b77bfb8ee1f
+  patrol: 51b76cc7c11a2933ee3e72482d930c75b9d4ec73
   PromisesObjC: f5707f49cb48b9636751c5b2e7d227e43fba9f47
   video_player_avfoundation: 2cef49524dd1f16c5300b9cd6efd9611ce03639b
 
